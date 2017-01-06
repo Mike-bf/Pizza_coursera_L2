@@ -7,14 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		491209291D46E60E00E27001 /* Etapa2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491209281D46E60D00E27001 /* Etapa2ViewController.swift */; };
 		4942A3211D3EABB2007AE6CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4942A3201D3EABB2007AE6CF /* AppDelegate.swift */; };
 		4942A3231D3EABB2007AE6CF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4942A3221D3EABB2007AE6CF /* ViewController.swift */; };
 		4942A3261D3EABB3007AE6CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4942A3241D3EABB3007AE6CF /* Main.storyboard */; };
 		4942A3281D3EABB3007AE6CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4942A3271D3EABB3007AE6CF /* Assets.xcassets */; };
 		4942A32B1D3EABB3007AE6CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4942A3291D3EABB3007AE6CF /* LaunchScreen.storyboard */; };
+		4942A3331D3EAFAF007AE6CF /* Etapa1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4942A3321D3EAFAF007AE6CF /* Etapa1ViewController.swift */; };
+		49A5A0491D66C4650046CA84 /* Etapa3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A5A0481D66C4640046CA84 /* Etapa3ViewController.swift */; };
+		49A5A04B1D6A7DF50046CA84 /* Etapa4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A5A04A1D6A7DF50046CA84 /* Etapa4ViewController.swift */; };
+		49CDE7CF1E147E23007DC12C /* EtapaFinalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CDE7CE1E147E23007DC12C /* EtapaFinalViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		491209281D46E60D00E27001 /* Etapa2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Etapa2ViewController.swift; sourceTree = "<group>"; };
 		4942A31D1D3EABB2007AE6CF /* Pizza2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pizza2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4942A3201D3EABB2007AE6CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4942A3221D3EABB2007AE6CF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +28,10 @@
 		4942A3271D3EABB3007AE6CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4942A32A1D3EABB3007AE6CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4942A32C1D3EABB3007AE6CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4942A3321D3EAFAF007AE6CF /* Etapa1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Etapa1ViewController.swift; sourceTree = "<group>"; };
+		49A5A0481D66C4640046CA84 /* Etapa3ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Etapa3ViewController.swift; sourceTree = "<group>"; };
+		49A5A04A1D6A7DF50046CA84 /* Etapa4ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Etapa4ViewController.swift; sourceTree = "<group>"; };
+		49CDE7CE1E147E23007DC12C /* EtapaFinalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EtapaFinalViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +70,11 @@
 				4942A3271D3EABB3007AE6CF /* Assets.xcassets */,
 				4942A3291D3EABB3007AE6CF /* LaunchScreen.storyboard */,
 				4942A32C1D3EABB3007AE6CF /* Info.plist */,
+				4942A3321D3EAFAF007AE6CF /* Etapa1ViewController.swift */,
+				491209281D46E60D00E27001 /* Etapa2ViewController.swift */,
+				49A5A0481D66C4640046CA84 /* Etapa3ViewController.swift */,
+				49A5A04A1D6A7DF50046CA84 /* Etapa4ViewController.swift */,
+				49CDE7CE1E147E23007DC12C /* EtapaFinalViewController.swift */,
 			);
 			path = Pizza2;
 			sourceTree = "<group>";
@@ -91,11 +106,13 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = MayanTecnology;
 				TargetAttributes = {
 					4942A31C1D3EABB2007AE6CF = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 6Q4N7S9776;
+						LastSwiftMigration = 0820;
 					};
 				};
 			};
@@ -135,8 +152,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49A5A0491D66C4650046CA84 /* Etapa3ViewController.swift in Sources */,
+				49A5A04B1D6A7DF50046CA84 /* Etapa4ViewController.swift in Sources */,
 				4942A3231D3EABB2007AE6CF /* ViewController.swift in Sources */,
+				49CDE7CF1E147E23007DC12C /* EtapaFinalViewController.swift in Sources */,
+				491209291D46E60E00E27001 /* Etapa2ViewController.swift in Sources */,
 				4942A3211D3EABB2007AE6CF /* AppDelegate.swift in Sources */,
+				4942A3331D3EAFAF007AE6CF /* Etapa1ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,8 +198,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -199,7 +223,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -222,8 +246,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -239,9 +265,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -251,10 +278,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6Q4N7S9776;
 				INFOPLIST_FILE = Pizza2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mx.mayantecnology.Pizza2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -262,10 +291,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6Q4N7S9776;
 				INFOPLIST_FILE = Pizza2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mx.mayantecnology.Pizza2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -288,6 +319,7 @@
 				4942A3311D3EABB3007AE6CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
