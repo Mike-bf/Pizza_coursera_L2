@@ -43,6 +43,33 @@ class Etapa4ViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        if (op1.isOn){
+            contador = 1
+        }
+        if (op2.isOn){
+            contador += 1
+        }
+        if (op3.isOn){
+            contador += 1
+        }
+        if (op4.isOn){
+            contador += 1
+        }
+        if (op5.isOn){
+            contador += 1
+        }
+        if (op6.isOn){
+            contador += 1
+        }
+        if (op7.isOn){
+            contador += 1
+        }
+        if (op8.isOn){
+            contador += 1
+        }
+        if (op9.isOn){
+            contador += 1
+        }
     }
 
     override func didReceiveMemoryWarning() {
